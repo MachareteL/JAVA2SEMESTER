@@ -1,0 +1,27 @@
+Planas:Quadrado, Circulo, Triangulo, Retangulo, Hexagono Regular.
+Espaciais:Cubo, Paralelepido, Piramide de base quadrada, Esfera, Cilindro, Cone.
+
+Figuras planas perimetro e area
+
+private double lado = 10; //
+
+            public void setLado(double lado) {
+                if (lado > 0){  //
+                    this.lado = lado;
+                }
+            }
+
+            public void setArea(double area) {
+                if (area > 0){
+                    this.lado = Math.sqrt(area);
+                }
+            }
+
+            public double getLado() {
+                return this.lado;
+            }
+
+            public double getArea() {
+                return this.lado*this.lado;
+            }
+        }

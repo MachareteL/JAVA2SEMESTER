@@ -1,0 +1,11 @@
+Lab 02 - Calculadora Geométrica
+
+Vocês deverão fazer uma calculadora que calcula área
+e perímetro de figuras planas e volume e área superficial
+de figuras espaciais.
+
+Planas: Quadrado, Triângulo Equilatero, Circulo, Retangulo, Hexagono Regular,
+Espaciais: Paralelepipido, Cubo, Piramide de base quadrada, Esfera, Cilindro, Cone.
+
+Cada figura deve ser uma classe.
+Todas devem ser instanciadas na Main
